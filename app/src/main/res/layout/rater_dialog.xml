@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="Uygulamamız Hakkında Ne Düşünüyorsunuz?"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:text="Uygulamamız Hakkında Ne Düşünüyorsunuz?"
+        android:textSize="18sp" />
+
+    <!--<com.willy.ratingbar.ScaleRatingBar-->
+    <!--android:id="@+id/ratingBar"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginLeft="8dp"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:gravity="center"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--app:layout_constraintRight_toRightOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:srb_rating="4">-->
+    <!--</com.willy.ratingbar.ScaleRatingBar>-->
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="39dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/empty_r" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/empty_r" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/empty_r" />
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/empty_r" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/empty_r" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="285dp"
+        android:layout_height="97dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/textViewRaterDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="" />
+
+        <Button
+            android:id="@+id/hello"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_margin="5dp"
+            android:text="İptal"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/close"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_margin="5dp"
+            android:text="Gönder"
+            android:textStyle="bold" />
+    </FrameLayout>
+</LinearLayout>
