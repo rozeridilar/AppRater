@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="300dp"
-    android:layout_height="300dp">
+    android:layout_height="300dp"
+    android:orientation="vertical">
 
     <ImageView
         android:layout_width="100dp"
@@ -12,35 +12,17 @@
         android:layout_margin="5dp"
         android:layout_marginTop="10dp"
         android:contentDescription="Uygulamamız Hakkında Ne Düşünüyorsunuz?"
-        android:src="@mipmap/ic_launcher" />
+        android:src="@drawable/ic_launcher" />
 
     <TextView
+        android:id="@+id/textViewRaterMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:gravity="center_horizontal"
-        android:text="Uygulamamız Hakkında Ne Düşünüyorsunuz?"
+        android:text="nbbmbmn"
         android:textSize="18sp" />
-
-    <!--<com.willy.ratingbar.ScaleRatingBar-->
-    <!--android:id="@+id/ratingBar"-->
-    <!--android:layout_width="wrap_content"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:layout_marginBottom="8dp"-->
-    <!--android:layout_marginEnd="8dp"-->
-    <!--android:layout_marginLeft="8dp"-->
-    <!--android:layout_marginRight="8dp"-->
-    <!--android:layout_marginStart="8dp"-->
-    <!--android:layout_marginTop="8dp"-->
-    <!--android:gravity="center"-->
-    <!--app:layout_constraintBottom_toBottomOf="parent"-->
-    <!--app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintTop_toTopOf="parent"-->
-    <!--app:srb_rating="4">-->
-    <!--</com.willy.ratingbar.ScaleRatingBar>-->
-
 
     <LinearLayout
         android:layout_width="300dp"
@@ -107,23 +89,23 @@
             android:text="" />
 
         <Button
-            android:id="@+id/hello"
+            android:id="@+id/cancel"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|left"
             android:layout_margin="5dp"
-            android:text="İptal"
+            android:text=""
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/close"
+            android:id="@+id/send"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|right"
             android:layout_margin="5dp"
-            android:text="Gönder"
+            android:text=""
             android:textStyle="bold" />
     </FrameLayout>
 </LinearLayout>
