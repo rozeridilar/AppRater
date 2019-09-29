@@ -2,6 +2,7 @@ package apprater.rozeridilar.com.apprater;
 
 import android.app.Dialog;
 import android.content.ActivityNotFoundException;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.PorterDuff;
 import android.net.Uri;
@@ -24,19 +25,19 @@ import static com.rozeridilar.apprater.AppRater.addButtonEffect;
 public class MainActivity extends AppCompatActivity {
 
     private Button _btnRateYourApp;
-
+    private Context context;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        context = MainActivity.this;
 
         _btnRateYourApp = (Button) findViewById(R.id._btnRateYourApp);
-
         _btnRateYourApp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AppRater.getInstance(MainActivity.this).addButtonEffect(_btnRateYourApp);
-                AppRater.getInstance(MainActivity.this).showAppRaterDialog(AppRater.getInstance(MainActivity.this).getRaterTitleMessage(), "someAppId");
+                AppRater.getInstance(context).addButtonEffect(_btnRateYourApp);
+                AppRater.getInstance(context).showAppRaterDialog(AppRater.getInstance(context).getRaterTitleMessage(), "someAppId");
             }
         });
     }
