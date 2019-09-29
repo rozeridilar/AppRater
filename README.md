@@ -24,7 +24,7 @@ allprojects {
 ```java
 dependencies {
     implementation 'com.github.rozeridilar:AppRater:v1.0'
-	}
+}
 ```
 
 <img src="https://user-images.githubusercontent.com/7174879/50829895-0b0d1500-1357-11e9-8dff-507f992937a7.gif" width="50%" height="50%">
