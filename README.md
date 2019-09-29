@@ -5,7 +5,7 @@ Here is the all the source code for asking user to rate the app. If user gives m
 
 # Installation
 
-## Gradle dependency (recommended)
+## Gradle dependency
 
 ## Step 1
 - Add it in your root build.gradle at the end of repositories:
