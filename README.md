@@ -53,4 +53,4 @@ AppRater.getInstance(MainActivity.this).showAppRaterDialog(AppRater.getInstance(
 | setRaterTitleMessage  | Default Name: "Do you love our app?" |
 | setRaterStartDescription  | Default Name: "Ok."  |
 
-- All the properties above can be reached via get methods.(getRaterTitleMessage, getRaterStartDescription, etc.)
+- All the properties above can be reached via get methods.(getRaterTitleMessage(), getRaterStartDescription(), etc.)
