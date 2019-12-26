@@ -1,5 +1,5 @@
 # AppRater
-App Rater in Android
+App Rater in Android.
 
 Here is all the source code for asking user to rate your app. 
 
